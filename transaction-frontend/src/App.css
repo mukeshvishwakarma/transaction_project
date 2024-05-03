@@ -1,0 +1,70 @@
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.transaction-details {
+  margin-bottom: 20px;
+}
+
+.transaction-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.transaction-details p {
+  margin: 5px 0;
+}
+
+.transaction-details button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-details button:hover {
+  background-color: #d32f2f;
+}
+
+.new-transaction-form {
+  margin-bottom: 20px;
+}
+
+.new-transaction-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.new-transaction-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.new-transaction-form input[type="text"],
+.new-transaction-form input[type="number"],
+.new-transaction-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.new-transaction-form button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.new-transaction-form button[type="submit"]:hover {
+  background-color: #388e3c;
+}
